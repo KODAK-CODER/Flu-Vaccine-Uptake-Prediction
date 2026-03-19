@@ -1,0 +1,21 @@
+# Python bytecode (prevents 'junk' folders)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints (temporary autosave files)
+.ipynb_checkpoints
+
+# Large Data Files
+# If your CSVs are very large, Git might struggle. 
+# Uncomment the next line if you don't want to upload the raw data.
+# *.csv
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Virtual Environments (if you use them)
+venv/
+env/
+.env
